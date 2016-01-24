@@ -1,0 +1,50 @@
+@import "mixins";
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src:
+    local('Open Sans Light'),
+    local('OpenSans-Light'),
+    path_opensans('Open_Sans_300.eot?#iefix') format('embedded-opentype'),
+    path_opensans('Open_Sans_300.woff') format('woff'),
+    path_opensans('Open_Sans_300.ttf') format('truetype'),
+    path_opensans('Open_Sans_300.svg#OpenSans') format('svg');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src:
+    local('Open Sans'),
+    local('OpenSans'),
+    path_opensans('Open_Sans_400.eot?#iefix') format('embedded-opentype'),
+    path_opensans('Open_Sans_400.woff') format('woff'),
+    path_opensans('Open_Sans_400.ttf') format('truetype'),
+    path_opensans('Open_Sans_400.svg#OpenSans') format('svg');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src:
+    local('Open Sans Semibold'),
+    local('OpenSans-Semibold'),
+    path_opensans('Open_Sans_600.eot?#iefix') format('embedded-opentype'),
+    path_opensans('Open_Sans_600.woff') format('woff'),
+    path_opensans('Open_Sans_600.ttf') format('truetype'),
+    path_opensans('Open_Sans_600.svg#OpenSans') format('svg');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src:
+    local('Open Sans Bold'),
+    local('OpenSans-Bold'),
+    path_opensans('Open_Sans_700.eot?#iefix') format('embedded-opentype'),
+    path_opensans('Open_Sans_700.woff') format('woff'),
+    path_opensans('Open_Sans_700.ttf') format('truetype'),
+    path_opensans('Open_Sans_700.svg#OpenSans') format('svg');
+}

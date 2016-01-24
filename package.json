@@ -1,0 +1,14 @@
+{
+  "name": "nustimetabler",
+  "version": "0.0.0",
+  "description": "",
+  "main": "Gruntfile.js",
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "~1.2.3",
+    "grunt": "~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt-sass": "~0.17.0"
+  }
+}

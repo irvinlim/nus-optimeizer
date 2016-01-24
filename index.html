@@ -1,0 +1,151 @@
+<html>
+	<head>
+		<title></title>
+		<link rel="stylesheet" href="assets/css/foundation.min.css">
+		<link rel="stylesheet" href="assets/css/app.min.css">
+	</head>
+
+	<body>
+
+<header>
+	<div class="row">
+		<div class="columns">
+			<h1>NUSoptimeizer</h1>
+		</div>
+	</div>
+</header>
+
+<div class="row container">
+
+  <div class="large-10 large-order-2 medium-12 medium-order-1 columns main">
+  	<div class="timetable_wrap">
+	  	<table class="timetable">
+	  		<thead>
+	  			<tr>
+	  				<th></th>
+	  				<th class="start_end_container" colspan="28">
+	  					<div id="timetable_range_slider"></div>
+	  				</th>
+	  			</tr>
+	  			<tr class="times">
+	  				<th></th>
+	  				<th colspan="2"><div>0800</div></th>
+	  				<th colspan="2"><div>0900</div></th>
+	  				<th colspan="2"><div>1000</div></th>
+	  				<th colspan="2"><div>1100</div></th>
+	  				<th colspan="2"><div>1200</div></th>
+	  				<th colspan="2"><div>1300</div></th>
+	  				<th colspan="2"><div>1400</div></th>
+	  				<th colspan="2"><div>1500</div></th>
+	  				<th colspan="2"><div>1600</div></th>
+	  				<th colspan="2"><div>1700</div></th>
+	  				<th colspan="2"><div>1800</div></th>
+	  				<th colspan="2"><div>1900</div></th>
+	  				<th colspan="2"><div>2000</div></th>
+	  				<th colspan="2"><div>2100</div></th>
+	  				<th><div>2200</div></th>
+	  			</tr>
+	  		</thead>
+	  		<tbody>
+
+	  		</tbody>
+	  	</table>
+
+			<!-- div class="blockout_overlay_container">
+		  	<div class="blockout start"></div>
+		  	<div class="blockout end"></div>
+	  	</div> -->
+  	</div>
+  </div>
+
+  <div class="large-2 large-order-1 medium-6 medium-order-2 columns sidebar">
+  	<h4>Modules</h4>
+  	<div class="modules">
+  		<ul id="modules_sortable">
+			</ul>
+			<p class="info">No modules added yet.</p>
+  	</div>
+
+  	<input type="text" class="module_input" placeholder="Add module..." autocomplete="off">
+
+  	<button class="makeOptimize">Optimeize!</button>
+
+		<h5>Help</h5>
+  	<p>Add modules above to retrieve optimised timetable!</p>
+  	<p>Click on table cells to block out time slots.</p>
+  </div>
+
+	<div class="large-10 medium-6 columns">
+		<div class="row large-unstack">
+			<div class="columns large-4">
+				<h5>Most Optimized Schedules</h5>
+				<ul class="available_schedules">
+					
+				</ul>
+			</div>
+			<div class="columns statistics large-4">
+				<h5>Statistics</h5>
+
+				<div class="row">
+					<div class="columns small-4">
+						<i class="fa fa-calendar"></i> <span>Free Day: </span>
+					</div>
+					<div class="columns small-8">
+						<div class="progress" role="progressbar" tabindex="0">
+						  <div class="meter free_day"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="columns small-4">
+						<i class="fa fa-coffee"></i> <span>Breaks: </span>
+					</div>
+					<div class="columns small-8">
+						<div class="progress" role="progressbar" tabindex="0">
+						  <div class="meter breaks"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="columns small-4">
+						<i class="fa fa-clock-o"></i> <span>Start/End Time: </span>
+					</div>
+					<div class="columns small-8">
+						<div class="progress" role="progressbar" tabindex="0">
+						  <div class="meter startend_time"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="columns small-4">
+						<i class="fa fa-bus"></i> <span>Ease of Travel: </span>
+					</div>
+					<div class="columns small-8">
+						<div class="progress" role="progressbar" tabindex="0">
+						  <div class="meter travel"></div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="columns large-4 about">
+				<h5>About the Team</h5>
+				<p>The team consists of <strong>Loh Jia Shun, Kenneth</strong>, <strong>Jamos Tay</strong> and <strong>Irvin Lim Wei Quan</strong>.</p>
+				<p>We are freshmen in NUS School of Computing, all majoring in Computer Science.</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="large-2 columns hide-for-small hide-for-medium">
+	</div>
+</div>
+
+<script src="assets/js/jquery.min.js"></script>
+<script src="assets/js/core.min.js"></script>
+<script src="assets/js/app.min.js"></script>
+
+	</body>
+</html>
