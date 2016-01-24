@@ -883,6 +883,7 @@ function getFiveBest() {
 		}
 
 		TimetableUtil.prototype.populateSchedule(App.generatedSchedules[0], App.generatedScheduleVals[0]);
+		App.blockedSlots = []; // reset
   });
 }
 
