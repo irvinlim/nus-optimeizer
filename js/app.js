@@ -351,6 +351,7 @@ function actNameGetAbbr(actName) {
 		"Tutorial": "TUT",
 		"Lecture": "LEC",
 		"Sectional Teaching": "SEC",
+		"Seminar": "SEM",
 		"Recitation": "REC"
 	};
 
