@@ -984,5 +984,11 @@ function getScheduleVal(sched){
 	breakScore = 1 - breakScore / weightedSum;
 	adjacencyScore = 1 - adjacencyScore / weightedSum;
 	dayScore = 1 - dayScore / weightedSum;
-	return [score, freeDayScore > -5000 ? 1 : 0, breakScore, dayScore, adjacencyScore];
+	var f = 0;
+	if(freeDayScore == -4000){
+		f = 0.5;
+	}else if(freeDayScore > -4000){
+		f = 1;
+	}
+	return [score, f, breakScore, dayScore, adjacencyScore];
 }
